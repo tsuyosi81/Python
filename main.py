@@ -527,3 +527,116 @@
 # paint_calc(height=test_h, width=test_w, cover=coverage)
 
 # # NOTE Prime Numbers
+
+#Write your code below this line 👇
+
+# def prime_checker(number):
+# is_prime = True
+# for i in range(2, number):
+# if number % i == 0:
+# is_prime = False
+# if is_prime:
+# print("It's a prime number.")
+# else:
+# print("It's not a prime number.")
+
+# #Write your code above this line 👆
+
+# #Do NOT change any of the code below👇
+# n = int(input("Check this number: "))
+# prime_checker(number=n)
+
+# NOTE Grading Program
+
+# student_scores = {
+#   "Harry": 81,
+#   "Ron": 78,
+#   "Hermione": 99, 
+#   "Draco": 74,
+#   "Neville": 62,
+# }
+# # 🚨 Don't change the code above 👆
+
+# #TODO-1: Create an empty dictionary called student_grades.
+
+# student_grades = {}
+
+# #TODO-2: Write your code below to add the grades to student_grades.👇
+
+# for student in student_scores:
+#     score = student_scores[student]
+#     if score > 90:
+#         student_grades[student] = "Outstanding"
+#     elif score > 80:
+#         student_grades[student] = "Exceeds Expectations"
+#     elif score > 70:
+#         student_grades[student] = "Acceptable"
+#     else:
+#         student_grades[student] = "Fail"
+
+# # 🚨 Don't change the code below 👇
+# print(student_grades)
+
+# NOTE Dictionary in List
+
+# travel_log = [
+# {
+#   "country": "France",
+#   "visits": 12,
+#   "cities": ["Paris", "Lille", "Dijon"]
+# },
+# {
+#   "country": "Germany",
+#   "visits": 5,
+#   "cities": ["Berlin", "Hamburg", "Stuttgart"]
+# },
+# ]
+# #🚨 Do NOT change the code above
+
+# #TODO: Write the function that will allow new countries
+# #to be added to the travel_log. 👇
+
+# def add_new_country(Visited_country, Visited_Times, Visited_cities):
+#     new_country = {}
+#     new_country["country"] = Visited_country
+#     new_country["visits"] = Visited_Times
+#     new_country["cities"] = Visited_cities
+#     travel_log.append(new_country)
+
+# #🚨 Do not change the code below
+# add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+# print(travel_log)
+
+# NOTE Days in Month
+
+# def is_leap(year):
+#   if year % 4 == 0:
+#     if year % 100 == 0:
+#       if year % 400 == 0:
+#         print("Leap year.")
+#       else:
+#         print("Not leap year.")
+#     else:
+#       print("Leap year.")
+#   else:
+#     print("Not leap year.")
+
+# def days_in_month(year, month):
+#   month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]  
+#   if is_leap(year) and month == 2:
+#       return 29
+#   return month_days[month - 1]    
+        
+  
+# #🚨 Do NOT change any of the code below 
+# year = int(input("Enter a year: "))
+# month = int(input("Enter a month: "))
+# days = days_in_month(year, month)
+# print(days)
+
+
+
+
+
+
+
